@@ -1,0 +1,12 @@
+body{
+    background-color:#f9f0fe ;
+    color: burlywood;
+}
+.weather-app{
+    background:#06236A ;
+    max-width: 600px;
+    margin: 30px auto;
+    box-shadow: 0 30px 50  rgba(65, 50, 100, 0.03);
+    border-radius: 16px;
+    padding: 30px;
+}
