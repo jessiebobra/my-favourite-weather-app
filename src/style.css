@@ -28,7 +28,7 @@ header {
     border-radius: 6px;
 }
 
-.search-button {
+.search-form-button {
     margin-left: 5px;
     font-size: 16px;
     background-color: #885df1;
@@ -38,43 +38,42 @@ header {
     line-height: 1;
     border-radius: 5px;
 }
-.current-weather {
+.weather-app-data {
     display: flex;
     justify-content: space-between;
 }
-.current-city {
+.weather-app-city {
     font-size: 38px;
     font-weight: 900;
     margin: 0;
 }
 
-.current-details {
+.weather-app-details {
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
 }
 
-.current-details strong {
+.weather-app-details strong {
     color: #f9f0fe;
 }
 
 main {
     padding: 30px 0;
 }
-.current-temperature {
+.weather-app-temperature-container {
     display: flex;
 }
-.current-temperature-icon {
-    font-size: 38px;
-    text-align: center;
+.weather-app-icon {
+    height: 88px;
     width: 88px;
 }
-.current-temperature-value{
-    font-size: 88px;
+.weather-app-temperature-{
+    font-size: 100px;
     line-height: 88px;
-    font-weight: bold;
+    font-weight: bolder;
 }
-.current-temperature-unit{
+.weather-app-unit{
     margin-top: 6px;
     font-size: 28px;
 }
@@ -96,18 +95,21 @@ main {
     display: block;
     margin: 0 auto;
 }
-.weather-forecast-temperature {
+.weather-forecast-temperatures {
     text-align: center;
     color: rgba(65, 50, 100, 0.03);
     margin-top: 10px;
     display: flex;
     justify-content: center;
 }
+.weather-forecast-temperature{
+    padding: 0 10px;
+}
 
 footer {
     border-top: 1px solid #f9f7fe;
     text-align: center;
-    padding-top: 15px;
-
+    padding: 30px  0  0  0;
+font: 14px;
     color: burlywood;
 }
